@@ -1,0 +1,10 @@
+name: first workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print hello world
+        run: echo "hello world, This is github-action CICD"
+      - name: list of current directory
+        run: ls

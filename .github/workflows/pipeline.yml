@@ -6,7 +6,7 @@ on:
       - 'releases/**'
 jobs:
   test:
-    run-on: ubuntu:latest
+    runs-on: ubuntu:latest
     steps:
       - name: Get the Code from the repository
         uses: actions/checkout@v3
